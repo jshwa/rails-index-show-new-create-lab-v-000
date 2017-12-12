@@ -1,4 +1,4 @@
-class CouponsController < ApplicatonController
+class CouponsController < ApplicationController
   def index
     @coupons = Coupon.all
   end
